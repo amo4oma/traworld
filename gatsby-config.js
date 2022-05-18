@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/traward/',
+  pathPrefix: "/traworld",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
