@@ -1,0 +1,47 @@
+ 
+.swiper-scrollbar-drag{
+    width: 20% !important;
+}
+.swiper-horizontal > .swiper-scrollbar {
+width: 30%;
+left: 30%;
+// bottom: -10%;
+
+}
+.title-container{
+    text-align: center;
+    margin-top: 150px;
+    h1{
+        color: #3B3B3B;
+        font-family: 'Poppins';
+        font-size: 30px;
+        line-height: 1;
+    }
+    p{
+        font-family: 'Poppins';
+        font-size: 18px;
+        line-height: 1;
+        margin-top: -4px;
+    }
+}
+.expand-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.6141807064622724) 0%, rgba(255,255,255,1) 48%);
+    margin-top: -200px;
+    position: relative;
+    z-index: 555;
+    button{
+        background: rgb(74,23,134);
+        background: linear-gradient(90deg, rgba(74,23,134,1) 14%, rgba(0,151,169,1) 52%);
+        color: #fff;
+        border-radius: 25px;
+        padding: 5px 15px;
+        border: none;
+        font-size: 17px;
+    }
+}

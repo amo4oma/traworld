@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Private Yacht Cruise in Langkawi",
+        "location":"Kedah, Malaysia",
+        "rating":"4.8",
+        "reviews":"41 Reviews",
+        "isDuration" : true,
+        "duration":"3D2N",
+        "Pax": "Max 8",
+        "before":"MYR 3,000",
+        "after":"From MYR 2,900.00",
+        "discount":"MYR 100 OFF"
+    },
+    {
+        "name": "Padibox Homes & Cafe at Sekinchan",
+        "location":"Selangor, Malaysia",
+        "rating":"4.8",
+        "reviews":"41 Reviews",
+        "isDuration" : true,
+        "duration":"",
+        "Pax": "",
+        "before":"MYR 3,000",
+        "after":"From MYR 100.00" 
+    },
+    {
+        "name": "Wakesurfing at Philea Mines Beach Resort",
+        "location":"Selangor, Malaysia",
+        "rating":"4.8",
+        "reviews":"41 Reviews",
+        "isDuration" : true,
+        "duration":"",
+        "Pax": "",
+        "before":"MYR 3,000",
+        "after":"From MYR 200.00" 
+    },
+    {
+        "name": "Art Jamming Painting Class for adult",
+        "location":"Selangor, Malaysia",
+        "rating":"4.8",
+        "reviews":"41 Reviews",
+        "isDuration" : true,
+        "duration":"",
+        "Pax": "",
+        "before":"MYR 100",
+        "after":"From MYR 50.00",
+        "discount":"50% OFF" 
+    },
+    {  "name": "Wakesurfing at Philea Mines Beach Resort",
+        "location":"Selangor, Malaysia",
+        "rating":"4.8",
+        "reviews":"41 Reviews",
+        "isDuration" : true,
+        "duration":"",
+        "Pax": "",
+        "before":"MYR 3,000",
+        "after":"From MYR 200.00" 
+    },
+    {
+        "name": "Art Jamming Painting Class for adult",
+        "location":"Kuala Lumpur, Malaysia",
+        "rating":"4.8",
+        "reviews":"41 Reviews",
+        "isDuration" : true,
+        "duration":"2 Hours",
+        "Pax": "",
+        "before":"MYR 100",
+        "after":"From MYR 50.00"
+      
+    }
+]

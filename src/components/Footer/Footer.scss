@@ -1,0 +1,89 @@
+.footer-container{
+    background-color: #1E2433;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    color: #fff;
+    font-family: "Poppins";
+    line-height: 1;
+    hr{
+        background-color: #fff;
+        border: #fff;
+    }
+    .top-container{
+        display: inline-flex;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    .subscribe-cont{
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+       .subscribe-bar{
+        width: 24em;
+        height: 3em;
+        background-color: #fff;
+        border-radius: 25px;
+        margin-left: 2em;
+        padding-left: 10px;
+    }
+    .submit{
+       position: absolute;
+        background: rgb(74,23,134);
+        background: linear-gradient(90deg, rgba(74,23,134,1) 14%, rgba(0,151,169,1) 52%);
+        color: #fff;
+        right: 10px;
+        border-radius: 25px;
+        padding: 9px 15px;
+        border: none;
+        cursor: pointer;
+  
+    } 
+    }
+    
+    .text{
+        h6{
+            font-size: 17px;
+            line-height: 1;
+            margin-block-start: 0px;
+            margin-block-end: 0px;
+        }
+        p{
+            font-size: 12px;
+            line-height: 1;
+        }
+        a{
+            color: #0097A9;
+            cursor: pointer;
+        }
+    }
+    table {
+        width: 100%; 
+        
+    thead{
+        padding-bottom: 10px;
+
+    }
+    .tb-header{
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    th{
+        margin-left: 20px;
+        width: 200px;
+    }
+    .tb-content{
+        font-size: 14px;
+        font-weight: 100 !important;
+        color: #CCCCCC;
+        line-height: 1.5;
+        padding-bottom: 5px;
+    }
+    }
+
+    .footer-icon{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+}

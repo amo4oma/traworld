@@ -1,0 +1,197 @@
+.Section-3-container{
+    background-image: url(../../images/oliver-vrmumizr3B0-unsplash@2x.png);
+    height: 150vh;
+    margin-top: -10px;
+    position: relative;
+    padding-bottom: 50px;
+
+   
+    .sec-3-text{
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        font-family: "Poppins";
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top:9rem;
+        h1{
+            font-size: 25px;
+        }
+        p{
+            width: 70%;
+            font-size: 12px;
+        }
+    }
+
+    .sec-3-card{
+        width: 60%;
+        height: 322px;
+        background-color: rgba($color: #ffff, $alpha: 0.2);
+        backdrop-filter: blur(5px);
+        position: relative;
+        top: 60%;
+        left: 18em;
+        display: inline-flex;
+        border-radius: 25px;
+        padding: 47px 10px;
+    
+        
+        .first-col{
+          width: 19.5%;
+          margin-left: 20px;
+          padding-right: 40px;
+            font-family: 'Poppins';
+         
+            h1{
+                font-size: 25px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 14px;
+            }
+            a{
+                color: #4A1786;
+            }
+            @media screen and (max-width: 1285px) {
+                width: 17%;
+                h1{
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+        .second-col{
+          min-width: 27em;
+           margin-right: 10px;
+           height: 100%;
+          background-image: url(../../images/eagel.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+            position: relative;
+@media screen and (max-width: 1285px) {
+    min-width: 22em;
+    height: 80%;
+}
+          .second-col-mask{
+              position: absolute;
+              border-radius: 9px;
+              width: 27em;
+              height: 100%;
+              background: rgb(0,0,0);
+              background: linear-gradient(180deg, rgba(0,0,0,0.16880255520176823) 0%, rgba(1,1,1,0.5805672610841212) 48%);
+              @media screen and(max-width: 1285px) {
+                width: 100%;
+              }
+          }
+          .eagle-text{
+              margin: 232px 20px 31px 20px;
+              color: #fff;
+              font-family: "Poppins";
+             h6{
+                 font-size: 17px;
+                 line-height: 1.2;
+                 font-weight: 600;
+             }
+             p{
+                 font-size: 12px;
+                 line-height: 0;
+                 font-weight: 400;
+                 margin-top: -5px !important;
+             }
+             @media screen and(max-width: 1285px) {
+                margin: 170px 20px 31px 20px;
+             }     h6{
+                font-size: 15px;
+                line-height: 1.2;
+                font-weight: 600;
+            }
+            p{
+                font-size: 9px;
+                line-height: 0;
+                font-weight: 400;
+                margin-top: -5px !important;
+            }
+          }
+    
+
+        }
+        .third-col{
+          padding: 0px;
+       
+          position: relative;
+                .third-col-first-image{
+            background-image: url(../../images/bridg.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 13em;
+            height: 13em;
+            display: flex;
+            flex-direction: column;
+      
+            .third-col-text-1{
+                position: absolute;
+                border-radius: 9px;
+                width: 100%;
+                
+                background: rgb(0,0,0);
+                background: linear-gradient(180deg, rgba(0,0,0,0.16880255520176823) 0%, rgba(1,1,1,0.5805672610841212) 48%);
+                .col-3-text{
+                    color: #fff;
+                    font-family: "Poppins";
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    h6{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 10px;
+                        line-height: 0.6;
+                    }
+                }
+
+            }
+        }
+        .third-col-second-image{
+            background-image: url(../../images/second-eagel.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 13em;
+            height: 13em;
+            margin-top: -40px;
+            position: relative;
+            .third-col-text-2{
+                position: absolute;
+                border-radius: 9px;
+                width: 13em;
+                height: max-content;
+         
+                background: rgb(0,0,0);
+                background: linear-gradient(180deg, rgba(0,0,0,0.16880255520176823) 0%, rgba(1,1,1,0.5805672610841212) 48%);
+                .col-3-text{
+                    color: #fff;
+                    font-family: "Poppins";
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    h6{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 10px;
+                        line-height: 0.6;
+                    }
+                }
+            }
+        }
+        
+        }
+    
+ 
+
+ 
+    }
+}

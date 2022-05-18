@@ -1,0 +1,45 @@
+$mid :  1285px;
+$small: 800px;
+
+.swiper-container{
+    width: 77%;
+    margin: auto;
+    @media screen and (max-width: $mid) {
+        width: 92%;
+    }
+}
+.swiper-scrollbar-drag{
+    width: 20% !important;
+}
+.swiper-horizontal > .swiper-scrollbar {
+width: 30%;
+left: 30%;
+// bottom: -10%;
+
+}
+.title-container{
+    text-align: center;
+    h1{
+        color: #3B3B3B;
+        font-family: 'Poppins';
+        font-size: 30px;
+        line-height: 1;
+    }
+    p{
+        font-family: 'Poppins';
+        font-size: 18px;
+        line-height: 1;
+        margin-top: -4px;
+    }
+}
+.arrow{
+    width: 100%;
+    display: inline-flex;
+    .prev{
+        font-size: 30px;
+    }
+    .next{
+        margin-left: 94%;
+        font-size: 30px;
+    }
+}

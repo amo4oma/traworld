@@ -1,0 +1,44 @@
+.section-2-container{
+    background-image: url(../../images/S2Background.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+ 
+    background-size: cover;
+    margin-bottom: 0px;
+ 
+   
+
+
+    .sec-2-cards-container{
+        margin-top: 40rem;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10px;
+  
+        
+   
+    .sec-1-cards{
+        width: 375px;
+        height: 425px;
+        background-color: rgba($color: #ffffff, $alpha: 0.1);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-family: "Poppins";
+        margin-right: 20px;
+        
+      
+     
+      
+    }
+    .text-container{
+        text-align: center;
+        width: 70%;
+ 
+      
+    }
+}
+}
